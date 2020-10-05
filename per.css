@@ -1,0 +1,158 @@
+ body{
+            margin:1.5%;
+            margin-top:1%;
+            box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+            border-radius:1% 1% 0 0;
+           
+          }
+         
+          .target{
+            text-align:center;
+          }
+          .navbar-brand{
+            font-family:cursive;
+            font-size:1.9rem;
+
+          }
+          .nav-link{
+            font-size:1.1rem;
+            font-weight:2;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+          
+          #logo{
+            width:7rem;
+            height:7rem;
+            border-radius:50%;
+          }
+          .first{
+            background:url("background5.jpg");
+            padding-top:3.5rem;
+            border-radius:1% 1% 0 0;
+            
+          }
+
+          #home .container{
+            padding-top:1.5rem;
+            font-family:Montserrat;
+            font-size:2rem;
+            color:black;
+            text-align:center;
+           
+          }
+          span{
+            color:gold;
+            
+          }
+          #home p{
+           
+            text-shadow:1px 1px 0px rgba(44, 45, 48, 0.322); 
+            line-height:0.93;
+            font-family:kalam;
+          }
+         .btn{
+           margin-top:2rem;
+            align-items:center;
+          }
+          .watermark{
+            margin-top:2rem;
+            text-shadow:3px 3px 10px rgba(44, 45, 48, 1)
+
+          }
+        #prof{
+          margin-top:10% ;
+          margin-left:auto;
+          margin-right:auto;
+        }
+        .aboutme, .collaboration{
+          float:left;
+          margin-right:2%;
+        }
+        
+      
+        #about,#collaboration{
+          width:70%;
+          margin:3% auto;
+          padding:7% 10%;
+          font-family:Montserrat;
+          font-size:120%;
+          line-height: 2;
+          
+        }
+        #Skills{
+          width:70%;
+          margin:3% auto;
+          padding:7% 10%;
+          font-family:Montserrat;
+          font-size:120%;
+          line-height: 2;
+          
+          
+        }
+        .Skills{
+          float:right;
+          margin-left:2%;
+        }
+         .last-icons{
+           height:2rem;
+         }
+         .lst{
+           display:inline-block;
+           margin:1% 3% 2% 3%;
+         }
+         #contacts{
+          background: rgb(0,0,0);
+background: linear-gradient(220deg, rgba(0,0,0,1) 0%, rgba(108,142,167,0.2875349969089198) 45%, rgba(0,0,0,1) 94%);
+           color:black;
+  
+           text-align:center;
+           
+         }
+         .colr{
+          background-color: rgb(59, 69, 91);;
+         }
+         #contactlogo img{
+          width:5rem;
+          height:5rem;
+         }
+         #contactlogo{
+          color:Black;
+          font-size:1.5rem;
+          font-family:fantasy;
+
+         }
+         #about:hover,#Skills:hover,#collaboration:hover,#contacts:hover,.cliked{
+          box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+         }
+
+         @media(min-width:1000px){
+           nav{
+             height:5.5rem;
+           }
+           
+           
+           
+         }
+         
+         @media(max-width:988px){
+         #prof{
+           margin-left:4em;
+         }
+         .first{
+          padding-top:2rem;
+         }
+        }
+         @media(max-width:1090px){
+         #home p{
+           font-weight:2;
+          background-color:rgba(255, 255, 255, 0.383);
+          border-radius:45%;
+          padding:1rem;
+         }
+          
+        }
+        #skills:hover{
+          box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
+        }
+
+	
