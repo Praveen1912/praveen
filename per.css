@@ -154,5 +154,12 @@ background: linear-gradient(220deg, rgba(0,0,0,1) 0%, rgba(108,142,167,0.2875349
         #skills:hover{
           box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
         }
-
+	@media(max-width:991px){
+          #about,#collaboration,#Skills{
+            padding:5% 3%;
+            width:90%;
+          }
+         
+         }
+         
 	
