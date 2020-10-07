@@ -124,6 +124,13 @@ background: linear-gradient(220deg, rgba(0,0,0,1) 0%, rgba(108,142,167,0.2875349
          #about:hover,#Skills:hover,#collaboration:hover,#contacts:hover,.cliked{
           box-shadow:4px 4px 4px 4px  rgba(44, 45, 48, 0.322);
          }
+@media(max-width:991px){
+          #about,#collaboration,#Skills{
+            padding:5% 4%;
+            width:70%;
+          }
+         
+         }
 
          @media(min-width:1000px){
            nav{
